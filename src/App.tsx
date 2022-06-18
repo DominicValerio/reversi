@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Color, Board} from './board';
+import {Color, Board, CBoard} from './Board';
 
 class Piece extends React.Component<any> {
   constructor(props: any) {
@@ -27,7 +27,7 @@ class Piece extends React.Component<any> {
 function App() {
   return (
     <div className="App">
-      <Piece color={Color.White}/><Piece color={Color.White}/>
+      <CBoard/>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import React from "react";
+
 const COLS = 8;
 const ROWS = 8;
 
@@ -30,4 +32,8 @@ export class Board {
     }
     return res;
   }
+}
+
+export class CBoard extends React.Component<any> {
+
 }
