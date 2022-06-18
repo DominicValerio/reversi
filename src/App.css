@@ -1,3 +1,8 @@
+#board {
+  margin: auto;
+  width: 50%;
+}
+
 #square {
   box-sizing: border-box;
   border: 0.05vh solid black;
@@ -5,6 +10,7 @@
   background: rgb(0, 129, 0);
   height: 10vh;
   display: inline-block;
+  margin: auto;
 }
 
 #square .piece {
