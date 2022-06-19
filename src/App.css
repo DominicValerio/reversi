@@ -1,5 +1,5 @@
 #board {
-  margin: auto;
+  margin: 3% auto;
   width: 50%;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .piece#none {
-  visibility: hidden;
+  opacity: 0;
 }
 
 .piece#black {
