@@ -42,6 +42,8 @@ export class Board {
   }
 
   playMove(row: number, col: number) {
+    this.set([0,0], Color.White)
+    this.set([0,1], Color.White)
 
   }
 
